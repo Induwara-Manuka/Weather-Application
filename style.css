@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url(img/pexels-pixabay-314726.jpg);
+    background-position: center;
+    background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+}
+.container {
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.338);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.678);
+    margin-top: 50px;
+}
+h1 {
+    font-size: 24px;
+}
+input[type="text"] {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.container button {
+    background-color: #007BFF;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.weather-info {
+    margin-top: 20px;
+}
+
+.container table td{
+    border: 1px solid #10df9a;
+    text-align: center;
+}
+.forecast {
+    margin-top: 20px;
+}
+
+.forecast table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 0 auto; 
+}
+
+.forecast table th{
+    border: 1px solid #e40a0a;
+    padding: 10px;
+    text-align: center;
+}
+.forecast table td{
+    border: 1px solid #f7aa04;
+    text-align: center;
+}
+
+
+.forecast table th {
+    background-color: #f4f4f46b;
+}
+.forecast h2{
+    text-align: center;
+}
+header{
+    background: linear-gradient(transparent, #3a86c48e);
+    
+}
+ header h1 {
+    text-align: center;
+    font-size: 50px;
+    color: greenyellow;
+ } 
+ header table{
+    width: 100%;
+    border: none;
+ }
+ header img{
+    width: 100px;
+    height:100px ;
+ }
+ header h3 {
+color: aliceblue;
+ }
+ footer{
+    text-align: center;
+    background: linear-gradient(transparent, #0a65af98);
+    color: #000;
+ }
+ 
